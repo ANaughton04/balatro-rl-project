@@ -1,9 +1,16 @@
 import os
 import torch
+import sys
+from pathlib import Path
 from sb3_contrib import MaskablePPO
 from stable_baselines3.common.vec_env import SubprocVecEnv, VecMonitor
 from stable_baselines3.common.callbacks import BaseCallback, CheckpointCallback
 from jackdaw.env import BalatroGymnasiumEnv, DirectAdapter
+from stable_baselines3.common.logger import configure
+
+ROOT_DIR = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT_DIR))
+sys.path.insert(0, str(ROOT_DIR / 'jackdaw-balatro'))
 
 class BalatroMetricsCallback(BaseCallback):
     """
@@ -41,8 +48,11 @@ def make_env(rank: int, seed: int = 4):
 if __name__ == '__main__':
     #6 parellel environments for training
     NUM_ENVS = 6
-    LOG_DIR = './logs/balatro_ppo'
-    MODEL_DIR = './models/balatro_ppo'
+    RUN_NAME = 'run_01_baseline_shaped'
+    EXP_DIR = ROOT_DIR / 'experiments' / RUN_NAME
+    LOG_DIR = ROOT_DIR / 'logs' / RUN_NAME
+    MODEL_DIR = ROOT_DIR / 'models' / RUN_NAME
+    os.makedirs(EXP_DIR, exist_ok = True)
     os.makedirs(LOG_DIR, exist_ok = True)
     os.makedirs(MODEL_DIR, exist_ok = True)
 
@@ -52,12 +62,12 @@ if __name__ == '__main__':
 
     #Spawn parallel Rust/Python Balatro Environments
     vec_env = SubprocVecEnv([make_env(i) for i in range(NUM_ENVS)])
-    vec_env = VecMonitor(vec_env, LOG_DIR)
+    vec_env = VecMonitor(vec_env)
 
     #Save checkpoints every ~100k steps
     checkpoint_callback = CheckpointCallback(
-        save_freq = max(100_00 // NUM_ENVS, 1),
-        save_path = MODEL_DIR,
+        save_freq = max(100_000 // NUM_ENVS, 1),
+        save_path = str(MODEL_DIR),
         name_prefix = 'balatro_mask_ppo'
     )
     metrics_callback = BalatroMetricsCallback()
@@ -70,13 +80,17 @@ if __name__ == '__main__':
         n_steps = 1024,         #1024*6 envs = 6144 steps per rollout update
         batch_size = 512,
         n_epochs = 10,
-        gamma = 0.005,          #Long-horizon discounting across blinds/shops
+        gamma = 0.995,          #Long-horizon discounting across blinds/shops
         gae_lambda = 0.95,
         ent_coef = 0.015,       #Keep exploration alive in the shop
         verbose = 1,
-        tensorboard_log = LOG_DIR,
         device = device
     )
+
+
+    #Adding a custom logger to create txt and csv files for each training run
+    custom_logger = configure(str(EXP_DIR), ['stdout', 'log', 'csv', 'tensorboard'])
+    model.set_logger(custom_logger)
 
     print('Starting training run...')
     model.learn(
@@ -85,7 +99,7 @@ if __name__ == '__main__':
         progress_bar = False
     )
 
-    model.save(os.path.join(MODEL_DIR, 'balatro_final'))
+    model.save(str(MODEL_DIR / 'balatro_final'))
     vec_env.close()
     print('Training complete!  Model saved to ./models/balatro_final.zip')
 

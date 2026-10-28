@@ -13,4 +13,5 @@ wheels/
 logs/
 models/
 *.zip
+**/events.out.tfevents*
 .DS_Store

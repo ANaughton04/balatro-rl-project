@@ -1,0 +1,4065 @@
+Logging to /Users/anaughton/Documents/Projects/balatro-rl-project/experiments/run_01_baseline_shaped
+---------------------------------
+| balatro/           |          |
+|    ante_reached    | 1        |
+|    rounds_beaten   | 0        |
+|    win_rate        | 0        |
+| rollout/           |          |
+|    ep_len_mean     | 9.1      |
+|    ep_rew_mean     | -0.204   |
+| time/              |          |
+|    fps             | 1643     |
+|    iterations      | 1        |
+|    time_elapsed    | 3        |
+|    total_timesteps | 6144     |
+---------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0.00893     |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 9.25        |
+|    ep_rew_mean          | -0.203      |
+| time/                   |             |
+|    fps                  | 1427        |
+|    iterations           | 2           |
+|    time_elapsed         | 8           |
+|    total_timesteps      | 12288       |
+| train/                  |             |
+|    approx_kl            | 0.028185548 |
+|    clip_fraction        | 0.222       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.83       |
+|    explained_variance   | -17.8       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.111      |
+|    n_updates            | 10          |
+|    policy_gradient_loss | -0.029      |
+|    value_loss           | 0.0116      |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0           |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 8.95        |
+|    ep_rew_mean          | -0.202      |
+| time/                   |             |
+|    fps                  | 1354        |
+|    iterations           | 3           |
+|    time_elapsed         | 13          |
+|    total_timesteps      | 18432       |
+| train/                  |             |
+|    approx_kl            | 0.022156695 |
+|    clip_fraction        | 0.204       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.88       |
+|    explained_variance   | -32         |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.124      |
+|    n_updates            | 20          |
+|    policy_gradient_loss | -0.0296     |
+|    value_loss           | 0.000652    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0           |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 8.69        |
+|    ep_rew_mean          | -0.202      |
+| time/                   |             |
+|    fps                  | 1293        |
+|    iterations           | 4           |
+|    time_elapsed         | 19          |
+|    total_timesteps      | 24576       |
+| train/                  |             |
+|    approx_kl            | 0.021970691 |
+|    clip_fraction        | 0.212       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.94       |
+|    explained_variance   | -17.1       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.113      |
+|    n_updates            | 30          |
+|    policy_gradient_loss | -0.0347     |
+|    value_loss           | 0.000236    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0.00826     |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 8.6         |
+|    ep_rew_mean          | -0.201      |
+| time/                   |             |
+|    fps                  | 1300        |
+|    iterations           | 5           |
+|    time_elapsed         | 23          |
+|    total_timesteps      | 30720       |
+| train/                  |             |
+|    approx_kl            | 0.015449691 |
+|    clip_fraction        | 0.186       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -5.04       |
+|    explained_variance   | -8.01       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.13       |
+|    n_updates            | 40          |
+|    policy_gradient_loss | -0.0334     |
+|    value_loss           | 0.000137    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0.0084      |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 8.87        |
+|    ep_rew_mean          | -0.2        |
+| time/                   |             |
+|    fps                  | 1304        |
+|    iterations           | 6           |
+|    time_elapsed         | 28          |
+|    total_timesteps      | 36864       |
+| train/                  |             |
+|    approx_kl            | 0.013432194 |
+|    clip_fraction        | 0.167       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -5.07       |
+|    explained_variance   | -3.92       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.126      |
+|    n_updates            | 50          |
+|    policy_gradient_loss | -0.0336     |
+|    value_loss           | 0.000111    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0           |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 8.25        |
+|    ep_rew_mean          | -0.201      |
+| time/                   |             |
+|    fps                  | 1299        |
+|    iterations           | 7           |
+|    time_elapsed         | 33          |
+|    total_timesteps      | 43008       |
+| train/                  |             |
+|    approx_kl            | 0.013149247 |
+|    clip_fraction        | 0.154       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -5.09       |
+|    explained_variance   | -3.01       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.108      |
+|    n_updates            | 60          |
+|    policy_gradient_loss | -0.0329     |
+|    value_loss           | 0.000102    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0           |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 8.42        |
+|    ep_rew_mean          | -0.201      |
+| time/                   |             |
+|    fps                  | 1305        |
+|    iterations           | 8           |
+|    time_elapsed         | 37          |
+|    total_timesteps      | 49152       |
+| train/                  |             |
+|    approx_kl            | 0.013852451 |
+|    clip_fraction        | 0.174       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -5.07       |
+|    explained_variance   | -3.31       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.121      |
+|    n_updates            | 70          |
+|    policy_gradient_loss | -0.0374     |
+|    value_loss           | 6.22e-05    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0.0168      |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 8.31        |
+|    ep_rew_mean          | -0.201      |
+| time/                   |             |
+|    fps                  | 1300        |
+|    iterations           | 9           |
+|    time_elapsed         | 42          |
+|    total_timesteps      | 55296       |
+| train/                  |             |
+|    approx_kl            | 0.014022277 |
+|    clip_fraction        | 0.187       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -5.07       |
+|    explained_variance   | -3.39       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.138      |
+|    n_updates            | 80          |
+|    policy_gradient_loss | -0.04       |
+|    value_loss           | 4.9e-05     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0           |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 8.09        |
+|    ep_rew_mean          | -0.2        |
+| time/                   |             |
+|    fps                  | 1302        |
+|    iterations           | 10          |
+|    time_elapsed         | 47          |
+|    total_timesteps      | 61440       |
+| train/                  |             |
+|    approx_kl            | 0.012786093 |
+|    clip_fraction        | 0.154       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -5.05       |
+|    explained_variance   | -2.51       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.132      |
+|    n_updates            | 90          |
+|    policy_gradient_loss | -0.0338     |
+|    value_loss           | 5.7e-05     |
+-----------------------------------------
+------------------------------------------
+| balatro/                |              |
+|    ante_reached         | 1            |
+|    rounds_beaten        | 0            |
+|    win_rate             | 0            |
+| rollout/                |              |
+|    ep_len_mean          | 8.36         |
+|    ep_rew_mean          | -0.2         |
+| time/                   |              |
+|    fps                  | 1303         |
+|    iterations           | 11           |
+|    time_elapsed         | 51           |
+|    total_timesteps      | 67584        |
+| train/                  |              |
+|    approx_kl            | 0.0132930195 |
+|    clip_fraction        | 0.164        |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -5.03        |
+|    explained_variance   | -1.17        |
+|    learning_rate        | 0.0003       |
+|    loss                 | -0.118       |
+|    n_updates            | 100          |
+|    policy_gradient_loss | -0.035       |
+|    value_loss           | 5.62e-05     |
+------------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0.025       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 8.41        |
+|    ep_rew_mean          | -0.199      |
+| time/                   |             |
+|    fps                  | 1307        |
+|    iterations           | 12          |
+|    time_elapsed         | 56          |
+|    total_timesteps      | 73728       |
+| train/                  |             |
+|    approx_kl            | 0.013234322 |
+|    clip_fraction        | 0.176       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.99       |
+|    explained_variance   | -1.24       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.12       |
+|    n_updates            | 110         |
+|    policy_gradient_loss | -0.0366     |
+|    value_loss           | 4.06e-05    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0.0164      |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 8.13        |
+|    ep_rew_mean          | -0.199      |
+| time/                   |             |
+|    fps                  | 1307        |
+|    iterations           | 13          |
+|    time_elapsed         | 61          |
+|    total_timesteps      | 79872       |
+| train/                  |             |
+|    approx_kl            | 0.012569846 |
+|    clip_fraction        | 0.157       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.97       |
+|    explained_variance   | -0.769      |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.117      |
+|    n_updates            | 120         |
+|    policy_gradient_loss | -0.0339     |
+|    value_loss           | 5.33e-05    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0           |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 8.36        |
+|    ep_rew_mean          | -0.199      |
+| time/                   |             |
+|    fps                  | 1305        |
+|    iterations           | 14          |
+|    time_elapsed         | 65          |
+|    total_timesteps      | 86016       |
+| train/                  |             |
+|    approx_kl            | 0.013216011 |
+|    clip_fraction        | 0.162       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.95       |
+|    explained_variance   | -0.816      |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.12       |
+|    n_updates            | 130         |
+|    policy_gradient_loss | -0.0349     |
+|    value_loss           | 4.39e-05    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0.0082      |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 8.72        |
+|    ep_rew_mean          | -0.199      |
+| time/                   |             |
+|    fps                  | 1307        |
+|    iterations           | 15          |
+|    time_elapsed         | 70          |
+|    total_timesteps      | 92160       |
+| train/                  |             |
+|    approx_kl            | 0.013029203 |
+|    clip_fraction        | 0.171       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.9        |
+|    explained_variance   | -0.462      |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.12       |
+|    n_updates            | 140         |
+|    policy_gradient_loss | -0.0346     |
+|    value_loss           | 4.79e-05    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0.0248      |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 8.16        |
+|    ep_rew_mean          | -0.199      |
+| time/                   |             |
+|    fps                  | 1309        |
+|    iterations           | 16          |
+|    time_elapsed         | 75          |
+|    total_timesteps      | 98304       |
+| train/                  |             |
+|    approx_kl            | 0.013161921 |
+|    clip_fraction        | 0.162       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.87       |
+|    explained_variance   | -0.519      |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.119      |
+|    n_updates            | 150         |
+|    policy_gradient_loss | -0.0334     |
+|    value_loss           | 4.34e-05    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0.0246      |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 8.02        |
+|    ep_rew_mean          | -0.199      |
+| time/                   |             |
+|    fps                  | 1308        |
+|    iterations           | 17          |
+|    time_elapsed         | 79          |
+|    total_timesteps      | 104448      |
+| train/                  |             |
+|    approx_kl            | 0.012204956 |
+|    clip_fraction        | 0.144       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.82       |
+|    explained_variance   | -0.29       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.116      |
+|    n_updates            | 160         |
+|    policy_gradient_loss | -0.0309     |
+|    value_loss           | 6.74e-05    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0.0424      |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 8.34        |
+|    ep_rew_mean          | -0.199      |
+| time/                   |             |
+|    fps                  | 1306        |
+|    iterations           | 18          |
+|    time_elapsed         | 84          |
+|    total_timesteps      | 110592      |
+| train/                  |             |
+|    approx_kl            | 0.013055559 |
+|    clip_fraction        | 0.156       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.79       |
+|    explained_variance   | -0.246      |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.117      |
+|    n_updates            | 170         |
+|    policy_gradient_loss | -0.0331     |
+|    value_loss           | 5.35e-05    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0.0603      |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 7.96        |
+|    ep_rew_mean          | -0.197      |
+| time/                   |             |
+|    fps                  | 1307        |
+|    iterations           | 19          |
+|    time_elapsed         | 89          |
+|    total_timesteps      | 116736      |
+| train/                  |             |
+|    approx_kl            | 0.011827045 |
+|    clip_fraction        | 0.144       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.72       |
+|    explained_variance   | -0.253      |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.115      |
+|    n_updates            | 180         |
+|    policy_gradient_loss | -0.0305     |
+|    value_loss           | 8.3e-05     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0.0427      |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 8.34        |
+|    ep_rew_mean          | -0.199      |
+| time/                   |             |
+|    fps                  | 1307        |
+|    iterations           | 20          |
+|    time_elapsed         | 93          |
+|    total_timesteps      | 122880      |
+| train/                  |             |
+|    approx_kl            | 0.012630154 |
+|    clip_fraction        | 0.159       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.68       |
+|    explained_variance   | -0.206      |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.119      |
+|    n_updates            | 190         |
+|    policy_gradient_loss | -0.0323     |
+|    value_loss           | 6.47e-05    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0.0769      |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 8.78        |
+|    ep_rew_mean          | -0.195      |
+| time/                   |             |
+|    fps                  | 1309        |
+|    iterations           | 21          |
+|    time_elapsed         | 98          |
+|    total_timesteps      | 129024      |
+| train/                  |             |
+|    approx_kl            | 0.011849266 |
+|    clip_fraction        | 0.144       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.62       |
+|    explained_variance   | -0.0725     |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.115      |
+|    n_updates            | 200         |
+|    policy_gradient_loss | -0.0321     |
+|    value_loss           | 6.51e-05    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0.0328      |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 8.21        |
+|    ep_rew_mean          | -0.196      |
+| time/                   |             |
+|    fps                  | 1309        |
+|    iterations           | 22          |
+|    time_elapsed         | 103         |
+|    total_timesteps      | 135168      |
+| train/                  |             |
+|    approx_kl            | 0.013003263 |
+|    clip_fraction        | 0.15        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.54       |
+|    explained_variance   | -0.163      |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.11       |
+|    n_updates            | 210         |
+|    policy_gradient_loss | -0.0323     |
+|    value_loss           | 8.62e-05    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0.0885      |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 8.66        |
+|    ep_rew_mean          | -0.196      |
+| time/                   |             |
+|    fps                  | 1310        |
+|    iterations           | 23          |
+|    time_elapsed         | 107         |
+|    total_timesteps      | 141312      |
+| train/                  |             |
+|    approx_kl            | 0.012378191 |
+|    clip_fraction        | 0.154       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.51       |
+|    explained_variance   | 0.0145      |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.107      |
+|    n_updates            | 220         |
+|    policy_gradient_loss | -0.0295     |
+|    value_loss           | 9.7e-05     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0.065       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 8.02        |
+|    ep_rew_mean          | -0.196      |
+| time/                   |             |
+|    fps                  | 1311        |
+|    iterations           | 24          |
+|    time_elapsed         | 112         |
+|    total_timesteps      | 147456      |
+| train/                  |             |
+|    approx_kl            | 0.013490774 |
+|    clip_fraction        | 0.166       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.46       |
+|    explained_variance   | 0.0259      |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.121      |
+|    n_updates            | 230         |
+|    policy_gradient_loss | -0.034      |
+|    value_loss           | 6.52e-05    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0.0776      |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 8.81        |
+|    ep_rew_mean          | -0.196      |
+| time/                   |             |
+|    fps                  | 1312        |
+|    iterations           | 25          |
+|    time_elapsed         | 117         |
+|    total_timesteps      | 153600      |
+| train/                  |             |
+|    approx_kl            | 0.012519239 |
+|    clip_fraction        | 0.143       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.34       |
+|    explained_variance   | 0.0475      |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.111      |
+|    n_updates            | 240         |
+|    policy_gradient_loss | -0.0295     |
+|    value_loss           | 9.85e-05    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0.112       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 8.8         |
+|    ep_rew_mean          | -0.193      |
+| time/                   |             |
+|    fps                  | 1312        |
+|    iterations           | 26          |
+|    time_elapsed         | 121         |
+|    total_timesteps      | 159744      |
+| train/                  |             |
+|    approx_kl            | 0.013257296 |
+|    clip_fraction        | 0.161       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.27       |
+|    explained_variance   | 0.0311      |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.109      |
+|    n_updates            | 250         |
+|    policy_gradient_loss | -0.0319     |
+|    value_loss           | 0.000111    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.01        |
+|    rounds_beaten        | 0.112       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 8.96        |
+|    ep_rew_mean          | -0.193      |
+| time/                   |             |
+|    fps                  | 1312        |
+|    iterations           | 27          |
+|    time_elapsed         | 126         |
+|    total_timesteps      | 165888      |
+| train/                  |             |
+|    approx_kl            | 0.013727035 |
+|    clip_fraction        | 0.168       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.15       |
+|    explained_variance   | 0.0843      |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.111      |
+|    n_updates            | 260         |
+|    policy_gradient_loss | -0.031      |
+|    value_loss           | 0.000176    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.02        |
+|    rounds_beaten        | 0.15        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 10.8        |
+|    ep_rew_mean          | -0.189      |
+| time/                   |             |
+|    fps                  | 1313        |
+|    iterations           | 28          |
+|    time_elapsed         | 131         |
+|    total_timesteps      | 172032      |
+| train/                  |             |
+|    approx_kl            | 0.012972449 |
+|    clip_fraction        | 0.147       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -4.07       |
+|    explained_variance   | -0.0267     |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.109      |
+|    n_updates            | 270         |
+|    policy_gradient_loss | -0.0319     |
+|    value_loss           | 0.00015     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.01        |
+|    rounds_beaten        | 0.183       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 10          |
+|    ep_rew_mean          | -0.19       |
+| time/                   |             |
+|    fps                  | 1313        |
+|    iterations           | 29          |
+|    time_elapsed         | 135         |
+|    total_timesteps      | 178176      |
+| train/                  |             |
+|    approx_kl            | 0.011902117 |
+|    clip_fraction        | 0.128       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.98       |
+|    explained_variance   | 0.0768      |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.103      |
+|    n_updates            | 280         |
+|    policy_gradient_loss | -0.0303     |
+|    value_loss           | 0.00022     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0.194       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 8.93        |
+|    ep_rew_mean          | -0.191      |
+| time/                   |             |
+|    fps                  | 1313        |
+|    iterations           | 30          |
+|    time_elapsed         | 140         |
+|    total_timesteps      | 184320      |
+| train/                  |             |
+|    approx_kl            | 0.013241111 |
+|    clip_fraction        | 0.159       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.94       |
+|    explained_variance   | 0.135       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.111      |
+|    n_updates            | 290         |
+|    policy_gradient_loss | -0.033      |
+|    value_loss           | 0.000259    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0.14        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 9.95        |
+|    ep_rew_mean          | -0.19       |
+| time/                   |             |
+|    fps                  | 1313        |
+|    iterations           | 31          |
+|    time_elapsed         | 145         |
+|    total_timesteps      | 190464      |
+| train/                  |             |
+|    approx_kl            | 0.011928365 |
+|    clip_fraction        | 0.153       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.85       |
+|    explained_variance   | 0.0414      |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.105      |
+|    n_updates            | 300         |
+|    policy_gradient_loss | -0.0309     |
+|    value_loss           | 0.000214    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0.222       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 9.73        |
+|    ep_rew_mean          | -0.191      |
+| time/                   |             |
+|    fps                  | 1313        |
+|    iterations           | 32          |
+|    time_elapsed         | 149         |
+|    total_timesteps      | 196608      |
+| train/                  |             |
+|    approx_kl            | 0.012198158 |
+|    clip_fraction        | 0.157       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.78       |
+|    explained_variance   | 0.117       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.107      |
+|    n_updates            | 310         |
+|    policy_gradient_loss | -0.032      |
+|    value_loss           | 0.000222    |
+-----------------------------------------
+------------------------------------------
+| balatro/                |              |
+|    ante_reached         | 1.01         |
+|    rounds_beaten        | 0.224        |
+|    win_rate             | 0            |
+| rollout/                |              |
+|    ep_len_mean          | 10.3         |
+|    ep_rew_mean          | -0.19        |
+| time/                   |              |
+|    fps                  | 1313         |
+|    iterations           | 33           |
+|    time_elapsed         | 154          |
+|    total_timesteps      | 202752       |
+| train/                  |              |
+|    approx_kl            | 0.0112469755 |
+|    clip_fraction        | 0.12         |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -3.76        |
+|    explained_variance   | 0.0865       |
+|    learning_rate        | 0.0003       |
+|    loss                 | -0.094       |
+|    n_updates            | 320          |
+|    policy_gradient_loss | -0.028       |
+|    value_loss           | 0.000375     |
+------------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0.271       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 10.3        |
+|    ep_rew_mean          | -0.188      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 34          |
+|    time_elapsed         | 158         |
+|    total_timesteps      | 208896      |
+| train/                  |             |
+|    approx_kl            | 0.012174266 |
+|    clip_fraction        | 0.14        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.7        |
+|    explained_variance   | 0.0233      |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.106      |
+|    n_updates            | 330         |
+|    policy_gradient_loss | -0.0303     |
+|    value_loss           | 0.000247    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0.216       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 10.8        |
+|    ep_rew_mean          | -0.188      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 35          |
+|    time_elapsed         | 163         |
+|    total_timesteps      | 215040      |
+| train/                  |             |
+|    approx_kl            | 0.010702777 |
+|    clip_fraction        | 0.139       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.61       |
+|    explained_variance   | 0.121       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.097      |
+|    n_updates            | 340         |
+|    policy_gradient_loss | -0.0268     |
+|    value_loss           | 0.00024     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.02        |
+|    rounds_beaten        | 0.33        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 10.4        |
+|    ep_rew_mean          | -0.188      |
+| time/                   |             |
+|    fps                  | 1315        |
+|    iterations           | 36          |
+|    time_elapsed         | 168         |
+|    total_timesteps      | 221184      |
+| train/                  |             |
+|    approx_kl            | 0.012500361 |
+|    clip_fraction        | 0.141       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.56       |
+|    explained_variance   | 0.129       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.108      |
+|    n_updates            | 350         |
+|    policy_gradient_loss | -0.0308     |
+|    value_loss           | 0.000289    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0.258       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 11.4        |
+|    ep_rew_mean          | -0.184      |
+| time/                   |             |
+|    fps                  | 1315        |
+|    iterations           | 37          |
+|    time_elapsed         | 172         |
+|    total_timesteps      | 227328      |
+| train/                  |             |
+|    approx_kl            | 0.011807092 |
+|    clip_fraction        | 0.131       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.48       |
+|    explained_variance   | 0.214       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0971     |
+|    n_updates            | 360         |
+|    policy_gradient_loss | -0.0297     |
+|    value_loss           | 0.000385    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.01        |
+|    rounds_beaten        | 0.474       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 12          |
+|    ep_rew_mean          | -0.183      |
+| time/                   |             |
+|    fps                  | 1316        |
+|    iterations           | 38          |
+|    time_elapsed         | 177         |
+|    total_timesteps      | 233472      |
+| train/                  |             |
+|    approx_kl            | 0.011812344 |
+|    clip_fraction        | 0.154       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.45       |
+|    explained_variance   | 0.0793      |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.102      |
+|    n_updates            | 370         |
+|    policy_gradient_loss | -0.0312     |
+|    value_loss           | 0.000265    |
+-----------------------------------------
+----------------------------------------
+| balatro/                |            |
+|    ante_reached         | 1.02       |
+|    rounds_beaten        | 0.402      |
+|    win_rate             | 0          |
+| rollout/                |            |
+|    ep_len_mean          | 13.9       |
+|    ep_rew_mean          | -0.176     |
+| time/                   |            |
+|    fps                  | 1317       |
+|    iterations           | 39         |
+|    time_elapsed         | 181        |
+|    total_timesteps      | 239616     |
+| train/                  |            |
+|    approx_kl            | 0.01216643 |
+|    clip_fraction        | 0.142      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -3.39      |
+|    explained_variance   | 0.172      |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0971    |
+|    n_updates            | 380        |
+|    policy_gradient_loss | -0.0311    |
+|    value_loss           | 0.000452   |
+----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0.333       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 11.8        |
+|    ep_rew_mean          | -0.185      |
+| time/                   |             |
+|    fps                  | 1317        |
+|    iterations           | 40          |
+|    time_elapsed         | 186         |
+|    total_timesteps      | 245760      |
+| train/                  |             |
+|    approx_kl            | 0.011496802 |
+|    clip_fraction        | 0.126       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.37       |
+|    explained_variance   | 0.285       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0919     |
+|    n_updates            | 390         |
+|    policy_gradient_loss | -0.0294     |
+|    value_loss           | 0.000634    |
+-----------------------------------------
+------------------------------------------
+| balatro/                |              |
+|    ante_reached         | 1.03         |
+|    rounds_beaten        | 0.405        |
+|    win_rate             | 0            |
+| rollout/                |              |
+|    ep_len_mean          | 11.9         |
+|    ep_rew_mean          | -0.185       |
+| time/                   |              |
+|    fps                  | 1317         |
+|    iterations           | 41           |
+|    time_elapsed         | 191          |
+|    total_timesteps      | 251904       |
+| train/                  |              |
+|    approx_kl            | 0.0112328045 |
+|    clip_fraction        | 0.125        |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -3.33        |
+|    explained_variance   | 0.0744       |
+|    learning_rate        | 0.0003       |
+|    loss                 | -0.0959      |
+|    n_updates            | 400          |
+|    policy_gradient_loss | -0.0308      |
+|    value_loss           | 0.000636     |
+------------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.01        |
+|    rounds_beaten        | 0.33        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 12          |
+|    ep_rew_mean          | -0.184      |
+| time/                   |             |
+|    fps                  | 1317        |
+|    iterations           | 42          |
+|    time_elapsed         | 195         |
+|    total_timesteps      | 258048      |
+| train/                  |             |
+|    approx_kl            | 0.013473407 |
+|    clip_fraction        | 0.153       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.28       |
+|    explained_variance   | 0.132       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0838     |
+|    n_updates            | 410         |
+|    policy_gradient_loss | -0.0316     |
+|    value_loss           | 0.000577    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.02        |
+|    rounds_beaten        | 0.349       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 11.7        |
+|    ep_rew_mean          | -0.183      |
+| time/                   |             |
+|    fps                  | 1318        |
+|    iterations           | 43          |
+|    time_elapsed         | 200         |
+|    total_timesteps      | 264192      |
+| train/                  |             |
+|    approx_kl            | 0.011347856 |
+|    clip_fraction        | 0.122       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.26       |
+|    explained_variance   | 0.17        |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.095      |
+|    n_updates            | 420         |
+|    policy_gradient_loss | -0.0301     |
+|    value_loss           | 0.00066     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.03        |
+|    rounds_beaten        | 0.43        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 13.2        |
+|    ep_rew_mean          | -0.179      |
+| time/                   |             |
+|    fps                  | 1318        |
+|    iterations           | 44          |
+|    time_elapsed         | 205         |
+|    total_timesteps      | 270336      |
+| train/                  |             |
+|    approx_kl            | 0.011508878 |
+|    clip_fraction        | 0.13        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.25       |
+|    explained_variance   | 0.191       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0913     |
+|    n_updates            | 430         |
+|    policy_gradient_loss | -0.0294     |
+|    value_loss           | 0.000807    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.04        |
+|    rounds_beaten        | 0.452       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 13.8        |
+|    ep_rew_mean          | -0.181      |
+| time/                   |             |
+|    fps                  | 1318        |
+|    iterations           | 45          |
+|    time_elapsed         | 209         |
+|    total_timesteps      | 276480      |
+| train/                  |             |
+|    approx_kl            | 0.012315777 |
+|    clip_fraction        | 0.135       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.23       |
+|    explained_variance   | 0.304       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0977     |
+|    n_updates            | 440         |
+|    policy_gradient_loss | -0.0309     |
+|    value_loss           | 0.00118     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.04        |
+|    rounds_beaten        | 0.514       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 14.5        |
+|    ep_rew_mean          | -0.177      |
+| time/                   |             |
+|    fps                  | 1318        |
+|    iterations           | 46          |
+|    time_elapsed         | 214         |
+|    total_timesteps      | 282624      |
+| train/                  |             |
+|    approx_kl            | 0.012167023 |
+|    clip_fraction        | 0.139       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.16       |
+|    explained_variance   | 0.182       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.101      |
+|    n_updates            | 450         |
+|    policy_gradient_loss | -0.0299     |
+|    value_loss           | 0.000959    |
+-----------------------------------------
+------------------------------------------
+| balatro/                |              |
+|    ante_reached         | 1.01         |
+|    rounds_beaten        | 0.44         |
+|    win_rate             | 0            |
+| rollout/                |              |
+|    ep_len_mean          | 14.9         |
+|    ep_rew_mean          | -0.177       |
+| time/                   |              |
+|    fps                  | 1318         |
+|    iterations           | 47           |
+|    time_elapsed         | 218          |
+|    total_timesteps      | 288768       |
+| train/                  |              |
+|    approx_kl            | 0.0105011575 |
+|    clip_fraction        | 0.116        |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -3.16        |
+|    explained_variance   | 0.292        |
+|    learning_rate        | 0.0003       |
+|    loss                 | -0.0925      |
+|    n_updates            | 460          |
+|    policy_gradient_loss | -0.029       |
+|    value_loss           | 0.000831     |
+------------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.01        |
+|    rounds_beaten        | 0.419       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 12.2        |
+|    ep_rew_mean          | -0.186      |
+| time/                   |             |
+|    fps                  | 1318        |
+|    iterations           | 48          |
+|    time_elapsed         | 223         |
+|    total_timesteps      | 294912      |
+| train/                  |             |
+|    approx_kl            | 0.012163464 |
+|    clip_fraction        | 0.124       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.13       |
+|    explained_variance   | 0.206       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0918     |
+|    n_updates            | 470         |
+|    policy_gradient_loss | -0.0314     |
+|    value_loss           | 0.000953    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.04        |
+|    rounds_beaten        | 0.473       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 15.4        |
+|    ep_rew_mean          | -0.171      |
+| time/                   |             |
+|    fps                  | 1318        |
+|    iterations           | 49          |
+|    time_elapsed         | 228         |
+|    total_timesteps      | 301056      |
+| train/                  |             |
+|    approx_kl            | 0.011843623 |
+|    clip_fraction        | 0.124       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.11       |
+|    explained_variance   | 0.224       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0831     |
+|    n_updates            | 480         |
+|    policy_gradient_loss | -0.0293     |
+|    value_loss           | 0.000887    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.07        |
+|    rounds_beaten        | 0.529       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 15.1        |
+|    ep_rew_mean          | -0.175      |
+| time/                   |             |
+|    fps                  | 1319        |
+|    iterations           | 50          |
+|    time_elapsed         | 232         |
+|    total_timesteps      | 307200      |
+| train/                  |             |
+|    approx_kl            | 0.011198435 |
+|    clip_fraction        | 0.124       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.05       |
+|    explained_variance   | 0.297       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0842     |
+|    n_updates            | 490         |
+|    policy_gradient_loss | -0.0303     |
+|    value_loss           | 0.00106     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.01        |
+|    rounds_beaten        | 0.486       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 13.7        |
+|    ep_rew_mean          | -0.182      |
+| time/                   |             |
+|    fps                  | 1319        |
+|    iterations           | 51          |
+|    time_elapsed         | 237         |
+|    total_timesteps      | 313344      |
+| train/                  |             |
+|    approx_kl            | 0.011144935 |
+|    clip_fraction        | 0.116       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.08       |
+|    explained_variance   | 0.283       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.098      |
+|    n_updates            | 500         |
+|    policy_gradient_loss | -0.03       |
+|    value_loss           | 0.0013      |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0.377       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 15.8        |
+|    ep_rew_mean          | -0.175      |
+| time/                   |             |
+|    fps                  | 1318        |
+|    iterations           | 52          |
+|    time_elapsed         | 242         |
+|    total_timesteps      | 319488      |
+| train/                  |             |
+|    approx_kl            | 0.010216287 |
+|    clip_fraction        | 0.112       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.07       |
+|    explained_variance   | 0.254       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0889     |
+|    n_updates            | 510         |
+|    policy_gradient_loss | -0.0294     |
+|    value_loss           | 0.000888    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.05        |
+|    rounds_beaten        | 0.667       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 15.3        |
+|    ep_rew_mean          | -0.176      |
+| time/                   |             |
+|    fps                  | 1318        |
+|    iterations           | 53          |
+|    time_elapsed         | 246         |
+|    total_timesteps      | 325632      |
+| train/                  |             |
+|    approx_kl            | 0.011030324 |
+|    clip_fraction        | 0.13        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.07       |
+|    explained_variance   | 0.266       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0982     |
+|    n_updates            | 520         |
+|    policy_gradient_loss | -0.0318     |
+|    value_loss           | 0.00109     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.08        |
+|    rounds_beaten        | 0.746       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 14.4        |
+|    ep_rew_mean          | -0.178      |
+| time/                   |             |
+|    fps                  | 1318        |
+|    iterations           | 54          |
+|    time_elapsed         | 251         |
+|    total_timesteps      | 331776      |
+| train/                  |             |
+|    approx_kl            | 0.011074088 |
+|    clip_fraction        | 0.127       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -3.02       |
+|    explained_variance   | 0.24        |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0869     |
+|    n_updates            | 530         |
+|    policy_gradient_loss | -0.0322     |
+|    value_loss           | 0.000806    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.05        |
+|    rounds_beaten        | 0.554       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 15.5        |
+|    ep_rew_mean          | -0.176      |
+| time/                   |             |
+|    fps                  | 1318        |
+|    iterations           | 55          |
+|    time_elapsed         | 256         |
+|    total_timesteps      | 337920      |
+| train/                  |             |
+|    approx_kl            | 0.011259224 |
+|    clip_fraction        | 0.131       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.99       |
+|    explained_variance   | 0.334       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0943     |
+|    n_updates            | 540         |
+|    policy_gradient_loss | -0.0338     |
+|    value_loss           | 0.0014      |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.04        |
+|    rounds_beaten        | 0.559       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 14.8        |
+|    ep_rew_mean          | -0.176      |
+| time/                   |             |
+|    fps                  | 1318        |
+|    iterations           | 56          |
+|    time_elapsed         | 260         |
+|    total_timesteps      | 344064      |
+| train/                  |             |
+|    approx_kl            | 0.011741248 |
+|    clip_fraction        | 0.128       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.98       |
+|    explained_variance   | 0.267       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0921     |
+|    n_updates            | 550         |
+|    policy_gradient_loss | -0.0299     |
+|    value_loss           | 0.000989    |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.03        |
+|    rounds_beaten        | 0.578       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 15.2        |
+|    ep_rew_mean          | -0.174      |
+| time/                   |             |
+|    fps                  | 1318        |
+|    iterations           | 57          |
+|    time_elapsed         | 265         |
+|    total_timesteps      | 350208      |
+| train/                  |             |
+|    approx_kl            | 0.011777609 |
+|    clip_fraction        | 0.127       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.97       |
+|    explained_variance   | 0.265       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.09       |
+|    n_updates            | 560         |
+|    policy_gradient_loss | -0.0311     |
+|    value_loss           | 0.00104     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.08        |
+|    rounds_beaten        | 0.636       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 16.4        |
+|    ep_rew_mean          | -0.169      |
+| time/                   |             |
+|    fps                  | 1318        |
+|    iterations           | 58          |
+|    time_elapsed         | 270         |
+|    total_timesteps      | 356352      |
+| train/                  |             |
+|    approx_kl            | 0.010622181 |
+|    clip_fraction        | 0.118       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.97       |
+|    explained_variance   | 0.268       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0905     |
+|    n_updates            | 570         |
+|    policy_gradient_loss | -0.0299     |
+|    value_loss           | 0.00107     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.05        |
+|    rounds_beaten        | 0.53        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 16          |
+|    ep_rew_mean          | -0.174      |
+| time/                   |             |
+|    fps                  | 1318        |
+|    iterations           | 59          |
+|    time_elapsed         | 274         |
+|    total_timesteps      | 362496      |
+| train/                  |             |
+|    approx_kl            | 0.011492562 |
+|    clip_fraction        | 0.13        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.97       |
+|    explained_variance   | 0.382       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0794     |
+|    n_updates            | 580         |
+|    policy_gradient_loss | -0.029      |
+|    value_loss           | 0.00141     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1           |
+|    rounds_beaten        | 0.617       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 18          |
+|    ep_rew_mean          | -0.166      |
+| time/                   |             |
+|    fps                  | 1319        |
+|    iterations           | 60          |
+|    time_elapsed         | 279         |
+|    total_timesteps      | 368640      |
+| train/                  |             |
+|    approx_kl            | 0.012368376 |
+|    clip_fraction        | 0.128       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.98       |
+|    explained_variance   | 0.274       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0909     |
+|    n_updates            | 590         |
+|    policy_gradient_loss | -0.0297     |
+|    value_loss           | 0.00101     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.06        |
+|    rounds_beaten        | 0.71        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 17.7        |
+|    ep_rew_mean          | -0.166      |
+| time/                   |             |
+|    fps                  | 1319        |
+|    iterations           | 61          |
+|    time_elapsed         | 284         |
+|    total_timesteps      | 374784      |
+| train/                  |             |
+|    approx_kl            | 0.011657407 |
+|    clip_fraction        | 0.133       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.93       |
+|    explained_variance   | 0.273       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0936     |
+|    n_updates            | 600         |
+|    policy_gradient_loss | -0.0306     |
+|    value_loss           | 0.0013      |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.06        |
+|    rounds_beaten        | 0.651       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 16.9        |
+|    ep_rew_mean          | -0.167      |
+| time/                   |             |
+|    fps                  | 1319        |
+|    iterations           | 62          |
+|    time_elapsed         | 288         |
+|    total_timesteps      | 380928      |
+| train/                  |             |
+|    approx_kl            | 0.012093324 |
+|    clip_fraction        | 0.125       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.9        |
+|    explained_variance   | 0.244       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0854     |
+|    n_updates            | 610         |
+|    policy_gradient_loss | -0.0301     |
+|    value_loss           | 0.00124     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.01        |
+|    rounds_beaten        | 0.507       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 18.1        |
+|    ep_rew_mean          | -0.164      |
+| time/                   |             |
+|    fps                  | 1319        |
+|    iterations           | 63          |
+|    time_elapsed         | 293         |
+|    total_timesteps      | 387072      |
+| train/                  |             |
+|    approx_kl            | 0.011716039 |
+|    clip_fraction        | 0.131       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.89       |
+|    explained_variance   | 0.288       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0969     |
+|    n_updates            | 620         |
+|    policy_gradient_loss | -0.03       |
+|    value_loss           | 0.00132     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.1         |
+|    rounds_beaten        | 0.78        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 16.9        |
+|    ep_rew_mean          | -0.172      |
+| time/                   |             |
+|    fps                  | 1319        |
+|    iterations           | 64          |
+|    time_elapsed         | 297         |
+|    total_timesteps      | 393216      |
+| train/                  |             |
+|    approx_kl            | 0.011685453 |
+|    clip_fraction        | 0.134       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.87       |
+|    explained_variance   | 0.295       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0797     |
+|    n_updates            | 630         |
+|    policy_gradient_loss | -0.03       |
+|    value_loss           | 0.00138     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.09        |
+|    rounds_beaten        | 0.891       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 18.2        |
+|    ep_rew_mean          | -0.162      |
+| time/                   |             |
+|    fps                  | 1319        |
+|    iterations           | 65          |
+|    time_elapsed         | 302         |
+|    total_timesteps      | 399360      |
+| train/                  |             |
+|    approx_kl            | 0.011508037 |
+|    clip_fraction        | 0.12        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.85       |
+|    explained_variance   | 0.19        |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0916     |
+|    n_updates            | 640         |
+|    policy_gradient_loss | -0.0306     |
+|    value_loss           | 0.00159     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.09        |
+|    rounds_beaten        | 0.789       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 17.6        |
+|    ep_rew_mean          | -0.165      |
+| time/                   |             |
+|    fps                  | 1319        |
+|    iterations           | 66          |
+|    time_elapsed         | 307         |
+|    total_timesteps      | 405504      |
+| train/                  |             |
+|    approx_kl            | 0.011943623 |
+|    clip_fraction        | 0.134       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.8        |
+|    explained_variance   | 0.337       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0827     |
+|    n_updates            | 650         |
+|    policy_gradient_loss | -0.0306     |
+|    value_loss           | 0.00143     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.13        |
+|    rounds_beaten        | 1.2         |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 17.6        |
+|    ep_rew_mean          | -0.163      |
+| time/                   |             |
+|    fps                  | 1318        |
+|    iterations           | 67          |
+|    time_elapsed         | 312         |
+|    total_timesteps      | 411648      |
+| train/                  |             |
+|    approx_kl            | 0.012429594 |
+|    clip_fraction        | 0.114       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.8        |
+|    explained_variance   | 0.369       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0897     |
+|    n_updates            | 660         |
+|    policy_gradient_loss | -0.03       |
+|    value_loss           | 0.00162     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.15        |
+|    rounds_beaten        | 1.13        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 20.5        |
+|    ep_rew_mean          | -0.151      |
+| time/                   |             |
+|    fps                  | 1319        |
+|    iterations           | 68          |
+|    time_elapsed         | 316         |
+|    total_timesteps      | 417792      |
+| train/                  |             |
+|    approx_kl            | 0.010930665 |
+|    clip_fraction        | 0.131       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.75       |
+|    explained_variance   | 0.327       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0823     |
+|    n_updates            | 670         |
+|    policy_gradient_loss | -0.0288     |
+|    value_loss           | 0.00154     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.07        |
+|    rounds_beaten        | 0.746       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 20          |
+|    ep_rew_mean          | -0.15       |
+| time/                   |             |
+|    fps                  | 1316        |
+|    iterations           | 69          |
+|    time_elapsed         | 322         |
+|    total_timesteps      | 423936      |
+| train/                  |             |
+|    approx_kl            | 0.010672421 |
+|    clip_fraction        | 0.124       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.77       |
+|    explained_variance   | 0.26        |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0884     |
+|    n_updates            | 680         |
+|    policy_gradient_loss | -0.0296     |
+|    value_loss           | 0.0016      |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.07        |
+|    rounds_beaten        | 0.78        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 18.5        |
+|    ep_rew_mean          | -0.163      |
+| time/                   |             |
+|    fps                  | 1313        |
+|    iterations           | 70          |
+|    time_elapsed         | 327         |
+|    total_timesteps      | 430080      |
+| train/                  |             |
+|    approx_kl            | 0.011973556 |
+|    clip_fraction        | 0.122       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.72       |
+|    explained_variance   | 0.316       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0795     |
+|    n_updates            | 690         |
+|    policy_gradient_loss | -0.0298     |
+|    value_loss           | 0.00221     |
+-----------------------------------------
+----------------------------------------
+| balatro/                |            |
+|    ante_reached         | 1.03       |
+|    rounds_beaten        | 0.733      |
+|    win_rate             | 0          |
+| rollout/                |            |
+|    ep_len_mean          | 19.6       |
+|    ep_rew_mean          | -0.154     |
+| time/                   |            |
+|    fps                  | 1313       |
+|    iterations           | 71         |
+|    time_elapsed         | 332        |
+|    total_timesteps      | 436224     |
+| train/                  |            |
+|    approx_kl            | 0.01178195 |
+|    clip_fraction        | 0.126      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -2.78      |
+|    explained_variance   | 0.336      |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0899    |
+|    n_updates            | 700        |
+|    policy_gradient_loss | -0.0292    |
+|    value_loss           | 0.00219    |
+----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.09        |
+|    rounds_beaten        | 1.02        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 17.1        |
+|    ep_rew_mean          | -0.16       |
+| time/                   |             |
+|    fps                  | 1313        |
+|    iterations           | 72          |
+|    time_elapsed         | 336         |
+|    total_timesteps      | 442368      |
+| train/                  |             |
+|    approx_kl            | 0.013981375 |
+|    clip_fraction        | 0.13        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.63       |
+|    explained_variance   | 0.246       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0931     |
+|    n_updates            | 710         |
+|    policy_gradient_loss | -0.0309     |
+|    value_loss           | 0.00156     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.09        |
+|    rounds_beaten        | 0.943       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 20.2        |
+|    ep_rew_mean          | -0.146      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 73          |
+|    time_elapsed         | 341         |
+|    total_timesteps      | 448512      |
+| train/                  |             |
+|    approx_kl            | 0.011763764 |
+|    clip_fraction        | 0.128       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.63       |
+|    explained_variance   | 0.29        |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0865     |
+|    n_updates            | 720         |
+|    policy_gradient_loss | -0.0297     |
+|    value_loss           | 0.00205     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.15        |
+|    rounds_beaten        | 1.22        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 19.3        |
+|    ep_rew_mean          | -0.158      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 74          |
+|    time_elapsed         | 345         |
+|    total_timesteps      | 454656      |
+| train/                  |             |
+|    approx_kl            | 0.011435677 |
+|    clip_fraction        | 0.125       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.64       |
+|    explained_variance   | 0.298       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0928     |
+|    n_updates            | 730         |
+|    policy_gradient_loss | -0.0317     |
+|    value_loss           | 0.00197     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.17        |
+|    rounds_beaten        | 1.4         |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 22.9        |
+|    ep_rew_mean          | -0.138      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 75          |
+|    time_elapsed         | 350         |
+|    total_timesteps      | 460800      |
+| train/                  |             |
+|    approx_kl            | 0.012449353 |
+|    clip_fraction        | 0.131       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.6        |
+|    explained_variance   | 0.368       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0884     |
+|    n_updates            | 740         |
+|    policy_gradient_loss | -0.0302     |
+|    value_loss           | 0.00321     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.18        |
+|    rounds_beaten        | 1.14        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 20.8        |
+|    ep_rew_mean          | -0.153      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 76          |
+|    time_elapsed         | 355         |
+|    total_timesteps      | 466944      |
+| train/                  |             |
+|    approx_kl            | 0.012626678 |
+|    clip_fraction        | 0.129       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.57       |
+|    explained_variance   | 0.262       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0871     |
+|    n_updates            | 750         |
+|    policy_gradient_loss | -0.0323     |
+|    value_loss           | 0.00307     |
+-----------------------------------------
+------------------------------------------
+| balatro/                |              |
+|    ante_reached         | 1.02         |
+|    rounds_beaten        | 0.726        |
+|    win_rate             | 0            |
+| rollout/                |              |
+|    ep_len_mean          | 18.8         |
+|    ep_rew_mean          | -0.158       |
+| time/                   |              |
+|    fps                  | 1314         |
+|    iterations           | 77           |
+|    time_elapsed         | 359          |
+|    total_timesteps      | 473088       |
+| train/                  |              |
+|    approx_kl            | 0.0120706335 |
+|    clip_fraction        | 0.135        |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.52        |
+|    explained_variance   | 0.343        |
+|    learning_rate        | 0.0003       |
+|    loss                 | -0.0797      |
+|    n_updates            | 760          |
+|    policy_gradient_loss | -0.0293      |
+|    value_loss           | 0.00254      |
+------------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.11        |
+|    rounds_beaten        | 0.926       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 18.7        |
+|    ep_rew_mean          | -0.156      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 78          |
+|    time_elapsed         | 364         |
+|    total_timesteps      | 479232      |
+| train/                  |             |
+|    approx_kl            | 0.012105064 |
+|    clip_fraction        | 0.118       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.52       |
+|    explained_variance   | 0.366       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0708     |
+|    n_updates            | 770         |
+|    policy_gradient_loss | -0.0291     |
+|    value_loss           | 0.00263     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.17        |
+|    rounds_beaten        | 1.1         |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 19.4        |
+|    ep_rew_mean          | -0.152      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 79          |
+|    time_elapsed         | 369         |
+|    total_timesteps      | 485376      |
+| train/                  |             |
+|    approx_kl            | 0.011522136 |
+|    clip_fraction        | 0.113       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.55       |
+|    explained_variance   | 0.363       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0782     |
+|    n_updates            | 780         |
+|    policy_gradient_loss | -0.0282     |
+|    value_loss           | 0.00286     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.07        |
+|    rounds_beaten        | 0.78        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 18.9        |
+|    ep_rew_mean          | -0.155      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 80          |
+|    time_elapsed         | 374         |
+|    total_timesteps      | 491520      |
+| train/                  |             |
+|    approx_kl            | 0.011068267 |
+|    clip_fraction        | 0.117       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.59       |
+|    explained_variance   | 0.356       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0792     |
+|    n_updates            | 790         |
+|    policy_gradient_loss | -0.0285     |
+|    value_loss           | 0.00284     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.2         |
+|    rounds_beaten        | 1.34        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 21.3        |
+|    ep_rew_mean          | -0.152      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 81          |
+|    time_elapsed         | 378         |
+|    total_timesteps      | 497664      |
+| train/                  |             |
+|    approx_kl            | 0.013703309 |
+|    clip_fraction        | 0.131       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.56       |
+|    explained_variance   | 0.335       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.085      |
+|    n_updates            | 800         |
+|    policy_gradient_loss | -0.0265     |
+|    value_loss           | 0.00201     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.19        |
+|    rounds_beaten        | 1.35        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 19.1        |
+|    ep_rew_mean          | -0.159      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 82          |
+|    time_elapsed         | 383         |
+|    total_timesteps      | 503808      |
+| train/                  |             |
+|    approx_kl            | 0.013060082 |
+|    clip_fraction        | 0.122       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.55       |
+|    explained_variance   | 0.371       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0884     |
+|    n_updates            | 810         |
+|    policy_gradient_loss | -0.0312     |
+|    value_loss           | 0.0025      |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.2         |
+|    rounds_beaten        | 1.31        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 21.5        |
+|    ep_rew_mean          | -0.149      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 83          |
+|    time_elapsed         | 387         |
+|    total_timesteps      | 509952      |
+| train/                  |             |
+|    approx_kl            | 0.012674921 |
+|    clip_fraction        | 0.131       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.56       |
+|    explained_variance   | 0.301       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0823     |
+|    n_updates            | 820         |
+|    policy_gradient_loss | -0.03       |
+|    value_loss           | 0.00214     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.13        |
+|    rounds_beaten        | 1.2         |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 22.6        |
+|    ep_rew_mean          | -0.145      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 84          |
+|    time_elapsed         | 392         |
+|    total_timesteps      | 516096      |
+| train/                  |             |
+|    approx_kl            | 0.010322207 |
+|    clip_fraction        | 0.124       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.55       |
+|    explained_variance   | 0.207       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0764     |
+|    n_updates            | 830         |
+|    policy_gradient_loss | -0.0307     |
+|    value_loss           | 0.00202     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.15        |
+|    rounds_beaten        | 1.47        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 21.7        |
+|    ep_rew_mean          | -0.144      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 85          |
+|    time_elapsed         | 397         |
+|    total_timesteps      | 522240      |
+| train/                  |             |
+|    approx_kl            | 0.011799179 |
+|    clip_fraction        | 0.122       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.45       |
+|    explained_variance   | 0.33        |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0806     |
+|    n_updates            | 840         |
+|    policy_gradient_loss | -0.0299     |
+|    value_loss           | 0.00227     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.17        |
+|    rounds_beaten        | 1.48        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 23.1        |
+|    ep_rew_mean          | -0.144      |
+| time/                   |             |
+|    fps                  | 1315        |
+|    iterations           | 86          |
+|    time_elapsed         | 401         |
+|    total_timesteps      | 528384      |
+| train/                  |             |
+|    approx_kl            | 0.011451695 |
+|    clip_fraction        | 0.123       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.48       |
+|    explained_variance   | 0.365       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0803     |
+|    n_updates            | 850         |
+|    policy_gradient_loss | -0.0303     |
+|    value_loss           | 0.00263     |
+-----------------------------------------
+------------------------------------------
+| balatro/                |              |
+|    ante_reached         | 1.1          |
+|    rounds_beaten        | 1.02         |
+|    win_rate             | 0            |
+| rollout/                |              |
+|    ep_len_mean          | 22           |
+|    ep_rew_mean          | -0.148       |
+| time/                   |              |
+|    fps                  | 1315         |
+|    iterations           | 87           |
+|    time_elapsed         | 406          |
+|    total_timesteps      | 534528       |
+| train/                  |              |
+|    approx_kl            | 0.0121350065 |
+|    clip_fraction        | 0.122        |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.47        |
+|    explained_variance   | 0.316        |
+|    learning_rate        | 0.0003       |
+|    loss                 | -0.0762      |
+|    n_updates            | 860          |
+|    policy_gradient_loss | -0.0291      |
+|    value_loss           | 0.0025       |
+------------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.2         |
+|    rounds_beaten        | 1.24        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 19.7        |
+|    ep_rew_mean          | -0.153      |
+| time/                   |             |
+|    fps                  | 1315        |
+|    iterations           | 88          |
+|    time_elapsed         | 411         |
+|    total_timesteps      | 540672      |
+| train/                  |             |
+|    approx_kl            | 0.010354064 |
+|    clip_fraction        | 0.112       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.49       |
+|    explained_variance   | 0.358       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0788     |
+|    n_updates            | 870         |
+|    policy_gradient_loss | -0.029      |
+|    value_loss           | 0.00264     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.08        |
+|    rounds_beaten        | 0.904       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 23.4        |
+|    ep_rew_mean          | -0.138      |
+| time/                   |             |
+|    fps                  | 1315        |
+|    iterations           | 89          |
+|    time_elapsed         | 415         |
+|    total_timesteps      | 546816      |
+| train/                  |             |
+|    approx_kl            | 0.009931355 |
+|    clip_fraction        | 0.115       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.42       |
+|    explained_variance   | 0.344       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0807     |
+|    n_updates            | 880         |
+|    policy_gradient_loss | -0.0275     |
+|    value_loss           | 0.00237     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.08        |
+|    rounds_beaten        | 1.17        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 24          |
+|    ep_rew_mean          | -0.13       |
+| time/                   |             |
+|    fps                  | 1315        |
+|    iterations           | 90          |
+|    time_elapsed         | 420         |
+|    total_timesteps      | 552960      |
+| train/                  |             |
+|    approx_kl            | 0.011435508 |
+|    clip_fraction        | 0.13        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.43       |
+|    explained_variance   | 0.288       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.075      |
+|    n_updates            | 890         |
+|    policy_gradient_loss | -0.0283     |
+|    value_loss           | 0.00209     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.12        |
+|    rounds_beaten        | 1.28        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 23.4        |
+|    ep_rew_mean          | -0.129      |
+| time/                   |             |
+|    fps                  | 1315        |
+|    iterations           | 91          |
+|    time_elapsed         | 425         |
+|    total_timesteps      | 559104      |
+| train/                  |             |
+|    approx_kl            | 0.011764322 |
+|    clip_fraction        | 0.114       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.38       |
+|    explained_variance   | 0.3         |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0729     |
+|    n_updates            | 900         |
+|    policy_gradient_loss | -0.028      |
+|    value_loss           | 0.00248     |
+-----------------------------------------
+----------------------------------------
+| balatro/                |            |
+|    ante_reached         | 1.16       |
+|    rounds_beaten        | 1.36       |
+|    win_rate             | 0          |
+| rollout/                |            |
+|    ep_len_mean          | 27.3       |
+|    ep_rew_mean          | -0.112     |
+| time/                   |            |
+|    fps                  | 1315       |
+|    iterations           | 92         |
+|    time_elapsed         | 429        |
+|    total_timesteps      | 565248     |
+| train/                  |            |
+|    approx_kl            | 0.01124645 |
+|    clip_fraction        | 0.121      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -2.36      |
+|    explained_variance   | 0.35       |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0869    |
+|    n_updates            | 910        |
+|    policy_gradient_loss | -0.0293    |
+|    value_loss           | 0.00281    |
+----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.25        |
+|    rounds_beaten        | 1.83        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 21.8        |
+|    ep_rew_mean          | -0.144      |
+| time/                   |             |
+|    fps                  | 1315        |
+|    iterations           | 93          |
+|    time_elapsed         | 434         |
+|    total_timesteps      | 571392      |
+| train/                  |             |
+|    approx_kl            | 0.011775819 |
+|    clip_fraction        | 0.123       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.38       |
+|    explained_variance   | 0.341       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0776     |
+|    n_updates            | 920         |
+|    policy_gradient_loss | -0.0302     |
+|    value_loss           | 0.00304     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.07        |
+|    rounds_beaten        | 0.839       |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 22.5        |
+|    ep_rew_mean          | -0.139      |
+| time/                   |             |
+|    fps                  | 1315        |
+|    iterations           | 94          |
+|    time_elapsed         | 439         |
+|    total_timesteps      | 577536      |
+| train/                  |             |
+|    approx_kl            | 0.011056889 |
+|    clip_fraction        | 0.129       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.29       |
+|    explained_variance   | 0.299       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0738     |
+|    n_updates            | 930         |
+|    policy_gradient_loss | -0.0287     |
+|    value_loss           | 0.00314     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.19        |
+|    rounds_beaten        | 1.44        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 19.6        |
+|    ep_rew_mean          | -0.154      |
+| time/                   |             |
+|    fps                  | 1315        |
+|    iterations           | 95          |
+|    time_elapsed         | 443         |
+|    total_timesteps      | 583680      |
+| train/                  |             |
+|    approx_kl            | 0.011670223 |
+|    clip_fraction        | 0.114       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.34       |
+|    explained_variance   | 0.344       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0865     |
+|    n_updates            | 940         |
+|    policy_gradient_loss | -0.0285     |
+|    value_loss           | 0.00297     |
+-----------------------------------------
+----------------------------------------
+| balatro/                |            |
+|    ante_reached         | 1.15       |
+|    rounds_beaten        | 1.15       |
+|    win_rate             | 0          |
+| rollout/                |            |
+|    ep_len_mean          | 21.2       |
+|    ep_rew_mean          | -0.148     |
+| time/                   |            |
+|    fps                  | 1315       |
+|    iterations           | 96         |
+|    time_elapsed         | 448        |
+|    total_timesteps      | 589824     |
+| train/                  |            |
+|    approx_kl            | 0.01128642 |
+|    clip_fraction        | 0.123      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -2.35      |
+|    explained_variance   | 0.319      |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0901    |
+|    n_updates            | 950        |
+|    policy_gradient_loss | -0.028     |
+|    value_loss           | 0.00283    |
+----------------------------------------
+----------------------------------------
+| balatro/                |            |
+|    ante_reached         | 1.04       |
+|    rounds_beaten        | 0.754      |
+|    win_rate             | 0          |
+| rollout/                |            |
+|    ep_len_mean          | 24         |
+|    ep_rew_mean          | -0.125     |
+| time/                   |            |
+|    fps                  | 1315       |
+|    iterations           | 97         |
+|    time_elapsed         | 453        |
+|    total_timesteps      | 595968     |
+| train/                  |            |
+|    approx_kl            | 0.01172047 |
+|    clip_fraction        | 0.121      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -2.34      |
+|    explained_variance   | 0.371      |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0817    |
+|    n_updates            | 960        |
+|    policy_gradient_loss | -0.0307    |
+|    value_loss           | 0.00283    |
+----------------------------------------
+------------------------------------------
+| balatro/                |              |
+|    ante_reached         | 1.14         |
+|    rounds_beaten        | 1.35         |
+|    win_rate             | 0            |
+| rollout/                |              |
+|    ep_len_mean          | 22.4         |
+|    ep_rew_mean          | -0.147       |
+| time/                   |              |
+|    fps                  | 1315         |
+|    iterations           | 98           |
+|    time_elapsed         | 457          |
+|    total_timesteps      | 602112       |
+| train/                  |              |
+|    approx_kl            | 0.0111820325 |
+|    clip_fraction        | 0.127        |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -2.34        |
+|    explained_variance   | 0.371        |
+|    learning_rate        | 0.0003       |
+|    loss                 | -0.077       |
+|    n_updates            | 970          |
+|    policy_gradient_loss | -0.031       |
+|    value_loss           | 0.00318      |
+------------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.15        |
+|    rounds_beaten        | 1.49        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 23.1        |
+|    ep_rew_mean          | -0.14       |
+| time/                   |             |
+|    fps                  | 1315        |
+|    iterations           | 99          |
+|    time_elapsed         | 462         |
+|    total_timesteps      | 608256      |
+| train/                  |             |
+|    approx_kl            | 0.010543182 |
+|    clip_fraction        | 0.119       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.3        |
+|    explained_variance   | 0.383       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0861     |
+|    n_updates            | 980         |
+|    policy_gradient_loss | -0.0289     |
+|    value_loss           | 0.00392     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.22        |
+|    rounds_beaten        | 1.24        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 23.4        |
+|    ep_rew_mean          | -0.123      |
+| time/                   |             |
+|    fps                  | 1315        |
+|    iterations           | 100         |
+|    time_elapsed         | 466         |
+|    total_timesteps      | 614400      |
+| train/                  |             |
+|    approx_kl            | 0.011403195 |
+|    clip_fraction        | 0.112       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.26       |
+|    explained_variance   | 0.302       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0768     |
+|    n_updates            | 990         |
+|    policy_gradient_loss | -0.0274     |
+|    value_loss           | 0.00325     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.26        |
+|    rounds_beaten        | 1.59        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 25.8        |
+|    ep_rew_mean          | -0.125      |
+| time/                   |             |
+|    fps                  | 1315        |
+|    iterations           | 101         |
+|    time_elapsed         | 471         |
+|    total_timesteps      | 620544      |
+| train/                  |             |
+|    approx_kl            | 0.011611958 |
+|    clip_fraction        | 0.129       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.27       |
+|    explained_variance   | 0.36        |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0734     |
+|    n_updates            | 1000        |
+|    policy_gradient_loss | -0.0283     |
+|    value_loss           | 0.00331     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.27        |
+|    rounds_beaten        | 1.56        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 22.6        |
+|    ep_rew_mean          | -0.135      |
+| time/                   |             |
+|    fps                  | 1315        |
+|    iterations           | 102         |
+|    time_elapsed         | 476         |
+|    total_timesteps      | 626688      |
+| train/                  |             |
+|    approx_kl            | 0.010750844 |
+|    clip_fraction        | 0.11        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.2        |
+|    explained_variance   | 0.302       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0744     |
+|    n_updates            | 1010        |
+|    policy_gradient_loss | -0.0279     |
+|    value_loss           | 0.00291     |
+-----------------------------------------
+----------------------------------------
+| balatro/                |            |
+|    ante_reached         | 1.08       |
+|    rounds_beaten        | 1.08       |
+|    win_rate             | 0          |
+| rollout/                |            |
+|    ep_len_mean          | 23.6       |
+|    ep_rew_mean          | -0.13      |
+| time/                   |            |
+|    fps                  | 1315       |
+|    iterations           | 103        |
+|    time_elapsed         | 480        |
+|    total_timesteps      | 632832     |
+| train/                  |            |
+|    approx_kl            | 0.01143621 |
+|    clip_fraction        | 0.125      |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -2.2       |
+|    explained_variance   | 0.384      |
+|    learning_rate        | 0.0003     |
+|    loss                 | -0.0771    |
+|    n_updates            | 1020       |
+|    policy_gradient_loss | -0.0288    |
+|    value_loss           | 0.00312    |
+----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.09        |
+|    rounds_beaten        | 1.18        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 23.3        |
+|    ep_rew_mean          | -0.125      |
+| time/                   |             |
+|    fps                  | 1315        |
+|    iterations           | 104         |
+|    time_elapsed         | 485         |
+|    total_timesteps      | 638976      |
+| train/                  |             |
+|    approx_kl            | 0.011484918 |
+|    clip_fraction        | 0.125       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.18       |
+|    explained_variance   | 0.31        |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0759     |
+|    n_updates            | 1030        |
+|    policy_gradient_loss | -0.0289     |
+|    value_loss           | 0.00245     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.16        |
+|    rounds_beaten        | 1.14        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 24.3        |
+|    ep_rew_mean          | -0.126      |
+| time/                   |             |
+|    fps                  | 1316        |
+|    iterations           | 105         |
+|    time_elapsed         | 490         |
+|    total_timesteps      | 645120      |
+| train/                  |             |
+|    approx_kl            | 0.011065734 |
+|    clip_fraction        | 0.115       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.17       |
+|    explained_variance   | 0.415       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0687     |
+|    n_updates            | 1040        |
+|    policy_gradient_loss | -0.0277     |
+|    value_loss           | 0.00338     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.38        |
+|    rounds_beaten        | 2.12        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 25.3        |
+|    ep_rew_mean          | -0.125      |
+| time/                   |             |
+|    fps                  | 1316        |
+|    iterations           | 106         |
+|    time_elapsed         | 494         |
+|    total_timesteps      | 651264      |
+| train/                  |             |
+|    approx_kl            | 0.011802155 |
+|    clip_fraction        | 0.118       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.14       |
+|    explained_variance   | 0.43        |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0751     |
+|    n_updates            | 1050        |
+|    policy_gradient_loss | -0.0269     |
+|    value_loss           | 0.00302     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.27        |
+|    rounds_beaten        | 1.59        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 25.1        |
+|    ep_rew_mean          | -0.13       |
+| time/                   |             |
+|    fps                  | 1316        |
+|    iterations           | 107         |
+|    time_elapsed         | 499         |
+|    total_timesteps      | 657408      |
+| train/                  |             |
+|    approx_kl            | 0.012119264 |
+|    clip_fraction        | 0.129       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.15       |
+|    explained_variance   | 0.406       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0785     |
+|    n_updates            | 1060        |
+|    policy_gradient_loss | -0.0295     |
+|    value_loss           | 0.00335     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.15        |
+|    rounds_beaten        | 1.24        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 22.4        |
+|    ep_rew_mean          | -0.141      |
+| time/                   |             |
+|    fps                  | 1316        |
+|    iterations           | 108         |
+|    time_elapsed         | 504         |
+|    total_timesteps      | 663552      |
+| train/                  |             |
+|    approx_kl            | 0.011452179 |
+|    clip_fraction        | 0.126       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.19       |
+|    explained_variance   | 0.424       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0646     |
+|    n_updates            | 1070        |
+|    policy_gradient_loss | -0.0277     |
+|    value_loss           | 0.00335     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.24        |
+|    rounds_beaten        | 1.76        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 26.9        |
+|    ep_rew_mean          | -0.11       |
+| time/                   |             |
+|    fps                  | 1316        |
+|    iterations           | 109         |
+|    time_elapsed         | 508         |
+|    total_timesteps      | 669696      |
+| train/                  |             |
+|    approx_kl            | 0.010701028 |
+|    clip_fraction        | 0.119       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.17       |
+|    explained_variance   | 0.353       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0764     |
+|    n_updates            | 1080        |
+|    policy_gradient_loss | -0.0277     |
+|    value_loss           | 0.00316     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.17        |
+|    rounds_beaten        | 1.49        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 23.5        |
+|    ep_rew_mean          | -0.13       |
+| time/                   |             |
+|    fps                  | 1316        |
+|    iterations           | 110         |
+|    time_elapsed         | 513         |
+|    total_timesteps      | 675840      |
+| train/                  |             |
+|    approx_kl            | 0.011207733 |
+|    clip_fraction        | 0.112       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.23       |
+|    explained_variance   | 0.352       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0682     |
+|    n_updates            | 1090        |
+|    policy_gradient_loss | -0.0269     |
+|    value_loss           | 0.00328     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.14        |
+|    rounds_beaten        | 1.32        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 25.3        |
+|    ep_rew_mean          | -0.106      |
+| time/                   |             |
+|    fps                  | 1316        |
+|    iterations           | 111         |
+|    time_elapsed         | 517         |
+|    total_timesteps      | 681984      |
+| train/                  |             |
+|    approx_kl            | 0.011214107 |
+|    clip_fraction        | 0.108       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.18       |
+|    explained_variance   | 0.416       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0675     |
+|    n_updates            | 1100        |
+|    policy_gradient_loss | -0.026      |
+|    value_loss           | 0.00366     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.18        |
+|    rounds_beaten        | 1.36        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 25.9        |
+|    ep_rew_mean          | -0.116      |
+| time/                   |             |
+|    fps                  | 1316        |
+|    iterations           | 112         |
+|    time_elapsed         | 522         |
+|    total_timesteps      | 688128      |
+| train/                  |             |
+|    approx_kl            | 0.012476581 |
+|    clip_fraction        | 0.127       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.19       |
+|    explained_variance   | 0.321       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0857     |
+|    n_updates            | 1110        |
+|    policy_gradient_loss | -0.0309     |
+|    value_loss           | 0.0041      |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.1         |
+|    rounds_beaten        | 1.02        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 27          |
+|    ep_rew_mean          | -0.12       |
+| time/                   |             |
+|    fps                  | 1316        |
+|    iterations           | 113         |
+|    time_elapsed         | 527         |
+|    total_timesteps      | 694272      |
+| train/                  |             |
+|    approx_kl            | 0.011265587 |
+|    clip_fraction        | 0.118       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.22       |
+|    explained_variance   | 0.448       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0737     |
+|    n_updates            | 1120        |
+|    policy_gradient_loss | -0.0303     |
+|    value_loss           | 0.00483     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.06        |
+|    rounds_beaten        | 1.19        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 23.9        |
+|    ep_rew_mean          | -0.123      |
+| time/                   |             |
+|    fps                  | 1316        |
+|    iterations           | 114         |
+|    time_elapsed         | 531         |
+|    total_timesteps      | 700416      |
+| train/                  |             |
+|    approx_kl            | 0.011210971 |
+|    clip_fraction        | 0.128       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.14       |
+|    explained_variance   | 0.327       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0739     |
+|    n_updates            | 1130        |
+|    policy_gradient_loss | -0.0275     |
+|    value_loss           | 0.0036      |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.2         |
+|    rounds_beaten        | 1.36        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 22.6        |
+|    ep_rew_mean          | -0.141      |
+| time/                   |             |
+|    fps                  | 1316        |
+|    iterations           | 115         |
+|    time_elapsed         | 536         |
+|    total_timesteps      | 706560      |
+| train/                  |             |
+|    approx_kl            | 0.012590694 |
+|    clip_fraction        | 0.129       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.16       |
+|    explained_variance   | 0.406       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0737     |
+|    n_updates            | 1140        |
+|    policy_gradient_loss | -0.0275     |
+|    value_loss           | 0.00408     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.37        |
+|    rounds_beaten        | 1.83        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 26.3        |
+|    ep_rew_mean          | -0.114      |
+| time/                   |             |
+|    fps                  | 1316        |
+|    iterations           | 116         |
+|    time_elapsed         | 541         |
+|    total_timesteps      | 712704      |
+| train/                  |             |
+|    approx_kl            | 0.011892605 |
+|    clip_fraction        | 0.121       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.13       |
+|    explained_variance   | 0.37        |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0674     |
+|    n_updates            | 1150        |
+|    policy_gradient_loss | -0.0283     |
+|    value_loss           | 0.00406     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.17        |
+|    rounds_beaten        | 1.49        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 24.7        |
+|    ep_rew_mean          | -0.115      |
+| time/                   |             |
+|    fps                  | 1316        |
+|    iterations           | 117         |
+|    time_elapsed         | 545         |
+|    total_timesteps      | 718848      |
+| train/                  |             |
+|    approx_kl            | 0.011774425 |
+|    clip_fraction        | 0.134       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.18       |
+|    explained_variance   | 0.472       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0789     |
+|    n_updates            | 1160        |
+|    policy_gradient_loss | -0.031      |
+|    value_loss           | 0.00439     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.27        |
+|    rounds_beaten        | 1.73        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 23.5        |
+|    ep_rew_mean          | -0.122      |
+| time/                   |             |
+|    fps                  | 1316        |
+|    iterations           | 118         |
+|    time_elapsed         | 550         |
+|    total_timesteps      | 724992      |
+| train/                  |             |
+|    approx_kl            | 0.010960765 |
+|    clip_fraction        | 0.126       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.2        |
+|    explained_variance   | 0.348       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0749     |
+|    n_updates            | 1170        |
+|    policy_gradient_loss | -0.0285     |
+|    value_loss           | 0.00416     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.18        |
+|    rounds_beaten        | 1.82        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 23.1        |
+|    ep_rew_mean          | -0.134      |
+| time/                   |             |
+|    fps                  | 1316        |
+|    iterations           | 119         |
+|    time_elapsed         | 555         |
+|    total_timesteps      | 731136      |
+| train/                  |             |
+|    approx_kl            | 0.011514741 |
+|    clip_fraction        | 0.118       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.18       |
+|    explained_variance   | 0.469       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0716     |
+|    n_updates            | 1180        |
+|    policy_gradient_loss | -0.0276     |
+|    value_loss           | 0.00491     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.18        |
+|    rounds_beaten        | 1.56        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 26.4        |
+|    ep_rew_mean          | -0.114      |
+| time/                   |             |
+|    fps                  | 1316        |
+|    iterations           | 120         |
+|    time_elapsed         | 559         |
+|    total_timesteps      | 737280      |
+| train/                  |             |
+|    approx_kl            | 0.012154549 |
+|    clip_fraction        | 0.124       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.04       |
+|    explained_variance   | 0.35        |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.075      |
+|    n_updates            | 1190        |
+|    policy_gradient_loss | -0.026      |
+|    value_loss           | 0.00438     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.23        |
+|    rounds_beaten        | 1.45        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 24.8        |
+|    ep_rew_mean          | -0.125      |
+| time/                   |             |
+|    fps                  | 1316        |
+|    iterations           | 121         |
+|    time_elapsed         | 564         |
+|    total_timesteps      | 743424      |
+| train/                  |             |
+|    approx_kl            | 0.010968567 |
+|    clip_fraction        | 0.123       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.13       |
+|    explained_variance   | 0.374       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0721     |
+|    n_updates            | 1200        |
+|    policy_gradient_loss | -0.0264     |
+|    value_loss           | 0.00384     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.19        |
+|    rounds_beaten        | 1.45        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 25.3        |
+|    ep_rew_mean          | -0.116      |
+| time/                   |             |
+|    fps                  | 1316        |
+|    iterations           | 122         |
+|    time_elapsed         | 569         |
+|    total_timesteps      | 749568      |
+| train/                  |             |
+|    approx_kl            | 0.012121475 |
+|    clip_fraction        | 0.128       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.06       |
+|    explained_variance   | 0.357       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0637     |
+|    n_updates            | 1210        |
+|    policy_gradient_loss | -0.0287     |
+|    value_loss           | 0.00397     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.12        |
+|    rounds_beaten        | 1.15        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 26.6        |
+|    ep_rew_mean          | -0.101      |
+| time/                   |             |
+|    fps                  | 1316        |
+|    iterations           | 123         |
+|    time_elapsed         | 573         |
+|    total_timesteps      | 755712      |
+| train/                  |             |
+|    approx_kl            | 0.010126119 |
+|    clip_fraction        | 0.116       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.05       |
+|    explained_variance   | 0.431       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0765     |
+|    n_updates            | 1220        |
+|    policy_gradient_loss | -0.0262     |
+|    value_loss           | 0.00392     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.13        |
+|    rounds_beaten        | 1.33        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 21.9        |
+|    ep_rew_mean          | -0.146      |
+| time/                   |             |
+|    fps                  | 1317        |
+|    iterations           | 124         |
+|    time_elapsed         | 578         |
+|    total_timesteps      | 761856      |
+| train/                  |             |
+|    approx_kl            | 0.011595516 |
+|    clip_fraction        | 0.119       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.04       |
+|    explained_variance   | 0.343       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0778     |
+|    n_updates            | 1230        |
+|    policy_gradient_loss | -0.0294     |
+|    value_loss           | 0.00466     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.2         |
+|    rounds_beaten        | 1.51        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 23.9        |
+|    ep_rew_mean          | -0.124      |
+| time/                   |             |
+|    fps                  | 1317        |
+|    iterations           | 125         |
+|    time_elapsed         | 583         |
+|    total_timesteps      | 768000      |
+| train/                  |             |
+|    approx_kl            | 0.011544969 |
+|    clip_fraction        | 0.114       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.07       |
+|    explained_variance   | 0.342       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0701     |
+|    n_updates            | 1240        |
+|    policy_gradient_loss | -0.0275     |
+|    value_loss           | 0.004       |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.4         |
+|    rounds_beaten        | 2.11        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 27.7        |
+|    ep_rew_mean          | -0.101      |
+| time/                   |             |
+|    fps                  | 1317        |
+|    iterations           | 126         |
+|    time_elapsed         | 587         |
+|    total_timesteps      | 774144      |
+| train/                  |             |
+|    approx_kl            | 0.012840442 |
+|    clip_fraction        | 0.118       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.03       |
+|    explained_variance   | 0.464       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0769     |
+|    n_updates            | 1250        |
+|    policy_gradient_loss | -0.0275     |
+|    value_loss           | 0.00374     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.42        |
+|    rounds_beaten        | 2.27        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 25.9        |
+|    ep_rew_mean          | -0.112      |
+| time/                   |             |
+|    fps                  | 1317        |
+|    iterations           | 127         |
+|    time_elapsed         | 592         |
+|    total_timesteps      | 780288      |
+| train/                  |             |
+|    approx_kl            | 0.012263599 |
+|    clip_fraction        | 0.119       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.99       |
+|    explained_variance   | 0.444       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0674     |
+|    n_updates            | 1260        |
+|    policy_gradient_loss | -0.0253     |
+|    value_loss           | 0.00501     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.33        |
+|    rounds_beaten        | 1.77        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 24.8        |
+|    ep_rew_mean          | -0.126      |
+| time/                   |             |
+|    fps                  | 1317        |
+|    iterations           | 128         |
+|    time_elapsed         | 597         |
+|    total_timesteps      | 786432      |
+| train/                  |             |
+|    approx_kl            | 0.012579792 |
+|    clip_fraction        | 0.121       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.06       |
+|    explained_variance   | 0.399       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0764     |
+|    n_updates            | 1270        |
+|    policy_gradient_loss | -0.0274     |
+|    value_loss           | 0.00519     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.22        |
+|    rounds_beaten        | 1.51        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 23.8        |
+|    ep_rew_mean          | -0.134      |
+| time/                   |             |
+|    fps                  | 1317        |
+|    iterations           | 129         |
+|    time_elapsed         | 601         |
+|    total_timesteps      | 792576      |
+| train/                  |             |
+|    approx_kl            | 0.011021204 |
+|    clip_fraction        | 0.115       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.01       |
+|    explained_variance   | 0.313       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0721     |
+|    n_updates            | 1280        |
+|    policy_gradient_loss | -0.0276     |
+|    value_loss           | 0.0038      |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.23        |
+|    rounds_beaten        | 1.4         |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 22.7        |
+|    ep_rew_mean          | -0.138      |
+| time/                   |             |
+|    fps                  | 1317        |
+|    iterations           | 130         |
+|    time_elapsed         | 606         |
+|    total_timesteps      | 798720      |
+| train/                  |             |
+|    approx_kl            | 0.012773565 |
+|    clip_fraction        | 0.126       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2          |
+|    explained_variance   | 0.325       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0629     |
+|    n_updates            | 1290        |
+|    policy_gradient_loss | -0.0292     |
+|    value_loss           | 0.00381     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.1         |
+|    rounds_beaten        | 1.02        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 23.4        |
+|    ep_rew_mean          | -0.138      |
+| time/                   |             |
+|    fps                  | 1317        |
+|    iterations           | 131         |
+|    time_elapsed         | 611         |
+|    total_timesteps      | 804864      |
+| train/                  |             |
+|    approx_kl            | 0.012374054 |
+|    clip_fraction        | 0.134       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.03       |
+|    explained_variance   | 0.395       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0687     |
+|    n_updates            | 1300        |
+|    policy_gradient_loss | -0.0273     |
+|    value_loss           | 0.00392     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.32        |
+|    rounds_beaten        | 2.03        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 25          |
+|    ep_rew_mean          | -0.117      |
+| time/                   |             |
+|    fps                  | 1317        |
+|    iterations           | 132         |
+|    time_elapsed         | 615         |
+|    total_timesteps      | 811008      |
+| train/                  |             |
+|    approx_kl            | 0.012475853 |
+|    clip_fraction        | 0.124       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.06       |
+|    explained_variance   | 0.396       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0743     |
+|    n_updates            | 1310        |
+|    policy_gradient_loss | -0.0286     |
+|    value_loss           | 0.00401     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.24        |
+|    rounds_beaten        | 1.81        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 23.3        |
+|    ep_rew_mean          | -0.14       |
+| time/                   |             |
+|    fps                  | 1317        |
+|    iterations           | 133         |
+|    time_elapsed         | 620         |
+|    total_timesteps      | 817152      |
+| train/                  |             |
+|    approx_kl            | 0.010852742 |
+|    clip_fraction        | 0.127       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.99       |
+|    explained_variance   | 0.334       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0706     |
+|    n_updates            | 1320        |
+|    policy_gradient_loss | -0.026      |
+|    value_loss           | 0.00479     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.21        |
+|    rounds_beaten        | 1.73        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 21.8        |
+|    ep_rew_mean          | -0.146      |
+| time/                   |             |
+|    fps                  | 1315        |
+|    iterations           | 134         |
+|    time_elapsed         | 626         |
+|    total_timesteps      | 823296      |
+| train/                  |             |
+|    approx_kl            | 0.012176741 |
+|    clip_fraction        | 0.109       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.98       |
+|    explained_variance   | 0.366       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0611     |
+|    n_updates            | 1330        |
+|    policy_gradient_loss | -0.0245     |
+|    value_loss           | 0.00322     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.34        |
+|    rounds_beaten        | 1.92        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 25.4        |
+|    ep_rew_mean          | -0.119      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 135         |
+|    time_elapsed         | 631         |
+|    total_timesteps      | 829440      |
+| train/                  |             |
+|    approx_kl            | 0.011801337 |
+|    clip_fraction        | 0.126       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.05       |
+|    explained_variance   | 0.346       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0738     |
+|    n_updates            | 1340        |
+|    policy_gradient_loss | -0.0272     |
+|    value_loss           | 0.00258     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.3         |
+|    rounds_beaten        | 1.83        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 25.4        |
+|    ep_rew_mean          | -0.121      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 136         |
+|    time_elapsed         | 635         |
+|    total_timesteps      | 835584      |
+| train/                  |             |
+|    approx_kl            | 0.012482337 |
+|    clip_fraction        | 0.136       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.1        |
+|    explained_variance   | 0.401       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0801     |
+|    n_updates            | 1350        |
+|    policy_gradient_loss | -0.0299     |
+|    value_loss           | 0.00325     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.22        |
+|    rounds_beaten        | 1.57        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 24.4        |
+|    ep_rew_mean          | -0.129      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 137         |
+|    time_elapsed         | 640         |
+|    total_timesteps      | 841728      |
+| train/                  |             |
+|    approx_kl            | 0.011161034 |
+|    clip_fraction        | 0.117       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.95       |
+|    explained_variance   | 0.311       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0732     |
+|    n_updates            | 1360        |
+|    policy_gradient_loss | -0.0287     |
+|    value_loss           | 0.00489     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.32        |
+|    rounds_beaten        | 1.94        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 26.5        |
+|    ep_rew_mean          | -0.11       |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 138         |
+|    time_elapsed         | 645         |
+|    total_timesteps      | 847872      |
+| train/                  |             |
+|    approx_kl            | 0.012292729 |
+|    clip_fraction        | 0.131       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2          |
+|    explained_variance   | 0.299       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0753     |
+|    n_updates            | 1370        |
+|    policy_gradient_loss | -0.0287     |
+|    value_loss           | 0.00377     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.11        |
+|    rounds_beaten        | 1.32        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 26.5        |
+|    ep_rew_mean          | -0.106      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 139         |
+|    time_elapsed         | 649         |
+|    total_timesteps      | 854016      |
+| train/                  |             |
+|    approx_kl            | 0.011077731 |
+|    clip_fraction        | 0.121       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.9        |
+|    explained_variance   | 0.358       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0699     |
+|    n_updates            | 1380        |
+|    policy_gradient_loss | -0.0289     |
+|    value_loss           | 0.00395     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.3         |
+|    rounds_beaten        | 2.06        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 27.9        |
+|    ep_rew_mean          | -0.108      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 140         |
+|    time_elapsed         | 654         |
+|    total_timesteps      | 860160      |
+| train/                  |             |
+|    approx_kl            | 0.010812522 |
+|    clip_fraction        | 0.12        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.97       |
+|    explained_variance   | 0.383       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.068      |
+|    n_updates            | 1390        |
+|    policy_gradient_loss | -0.0263     |
+|    value_loss           | 0.00408     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.3         |
+|    rounds_beaten        | 1.78        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 25.9        |
+|    ep_rew_mean          | -0.116      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 141         |
+|    time_elapsed         | 659         |
+|    total_timesteps      | 866304      |
+| train/                  |             |
+|    approx_kl            | 0.011927876 |
+|    clip_fraction        | 0.128       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.97       |
+|    explained_variance   | 0.416       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.063      |
+|    n_updates            | 1400        |
+|    policy_gradient_loss | -0.0273     |
+|    value_loss           | 0.00447     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.19        |
+|    rounds_beaten        | 1.42        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 29.4        |
+|    ep_rew_mean          | -0.083      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 142         |
+|    time_elapsed         | 663         |
+|    total_timesteps      | 872448      |
+| train/                  |             |
+|    approx_kl            | 0.011915043 |
+|    clip_fraction        | 0.119       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2          |
+|    explained_variance   | 0.399       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0627     |
+|    n_updates            | 1410        |
+|    policy_gradient_loss | -0.0285     |
+|    value_loss           | 0.00434     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.17        |
+|    rounds_beaten        | 1.28        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 24.7        |
+|    ep_rew_mean          | -0.122      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 143         |
+|    time_elapsed         | 668         |
+|    total_timesteps      | 878592      |
+| train/                  |             |
+|    approx_kl            | 0.011560892 |
+|    clip_fraction        | 0.13        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.02       |
+|    explained_variance   | 0.412       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0754     |
+|    n_updates            | 1420        |
+|    policy_gradient_loss | -0.028      |
+|    value_loss           | 0.00557     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.17        |
+|    rounds_beaten        | 1.55        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 25.3        |
+|    ep_rew_mean          | -0.122      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 144         |
+|    time_elapsed         | 672         |
+|    total_timesteps      | 884736      |
+| train/                  |             |
+|    approx_kl            | 0.012579312 |
+|    clip_fraction        | 0.129       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.95       |
+|    explained_variance   | 0.491       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0771     |
+|    n_updates            | 1430        |
+|    policy_gradient_loss | -0.0278     |
+|    value_loss           | 0.00593     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.13        |
+|    rounds_beaten        | 1.33        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 27.6        |
+|    ep_rew_mean          | -0.108      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 145         |
+|    time_elapsed         | 677         |
+|    total_timesteps      | 890880      |
+| train/                  |             |
+|    approx_kl            | 0.011900477 |
+|    clip_fraction        | 0.12        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.98       |
+|    explained_variance   | 0.463       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0624     |
+|    n_updates            | 1440        |
+|    policy_gradient_loss | -0.0288     |
+|    value_loss           | 0.00587     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.24        |
+|    rounds_beaten        | 1.73        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 28.6        |
+|    ep_rew_mean          | -0.095      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 146         |
+|    time_elapsed         | 682         |
+|    total_timesteps      | 897024      |
+| train/                  |             |
+|    approx_kl            | 0.013647069 |
+|    clip_fraction        | 0.129       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.01       |
+|    explained_variance   | 0.394       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0701     |
+|    n_updates            | 1450        |
+|    policy_gradient_loss | -0.0299     |
+|    value_loss           | 0.00562     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.14        |
+|    rounds_beaten        | 1.39        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 29.2        |
+|    ep_rew_mean          | -0.0877     |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 147         |
+|    time_elapsed         | 687         |
+|    total_timesteps      | 903168      |
+| train/                  |             |
+|    approx_kl            | 0.013540067 |
+|    clip_fraction        | 0.138       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2          |
+|    explained_variance   | 0.482       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0775     |
+|    n_updates            | 1460        |
+|    policy_gradient_loss | -0.0314     |
+|    value_loss           | 0.0066      |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.07        |
+|    rounds_beaten        | 1.3         |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 25.9        |
+|    ep_rew_mean          | -0.119      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 148         |
+|    time_elapsed         | 691         |
+|    total_timesteps      | 909312      |
+| train/                  |             |
+|    approx_kl            | 0.012526911 |
+|    clip_fraction        | 0.132       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2          |
+|    explained_variance   | 0.504       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0685     |
+|    n_updates            | 1470        |
+|    policy_gradient_loss | -0.0269     |
+|    value_loss           | 0.00563     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.15        |
+|    rounds_beaten        | 1.49        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 25.1        |
+|    ep_rew_mean          | -0.131      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 149         |
+|    time_elapsed         | 696         |
+|    total_timesteps      | 915456      |
+| train/                  |             |
+|    approx_kl            | 0.011236095 |
+|    clip_fraction        | 0.12        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.99       |
+|    explained_variance   | 0.417       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0644     |
+|    n_updates            | 1480        |
+|    policy_gradient_loss | -0.0262     |
+|    value_loss           | 0.00478     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.31        |
+|    rounds_beaten        | 1.69        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 27.8        |
+|    ep_rew_mean          | -0.108      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 150         |
+|    time_elapsed         | 701         |
+|    total_timesteps      | 921600      |
+| train/                  |             |
+|    approx_kl            | 0.010327191 |
+|    clip_fraction        | 0.124       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.99       |
+|    explained_variance   | 0.438       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0703     |
+|    n_updates            | 1490        |
+|    policy_gradient_loss | -0.0257     |
+|    value_loss           | 0.00423     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.26        |
+|    rounds_beaten        | 1.74        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 30.2        |
+|    ep_rew_mean          | -0.0811     |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 151         |
+|    time_elapsed         | 705         |
+|    total_timesteps      | 927744      |
+| train/                  |             |
+|    approx_kl            | 0.011956631 |
+|    clip_fraction        | 0.118       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.99       |
+|    explained_variance   | 0.34        |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0617     |
+|    n_updates            | 1500        |
+|    policy_gradient_loss | -0.0285     |
+|    value_loss           | 0.00417     |
+-----------------------------------------
+------------------------------------------
+| balatro/                |              |
+|    ante_reached         | 1.26         |
+|    rounds_beaten        | 1.97         |
+|    win_rate             | 0            |
+| rollout/                |              |
+|    ep_len_mean          | 24.3         |
+|    ep_rew_mean          | -0.135       |
+| time/                   |              |
+|    fps                  | 1314         |
+|    iterations           | 152          |
+|    time_elapsed         | 710          |
+|    total_timesteps      | 933888       |
+| train/                  |              |
+|    approx_kl            | 0.0118330335 |
+|    clip_fraction        | 0.118        |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.99        |
+|    explained_variance   | 0.392        |
+|    learning_rate        | 0.0003       |
+|    loss                 | -0.0727      |
+|    n_updates            | 1510         |
+|    policy_gradient_loss | -0.0284      |
+|    value_loss           | 0.00472      |
+------------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.27        |
+|    rounds_beaten        | 1.7         |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 28.8        |
+|    ep_rew_mean          | -0.0994     |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 153         |
+|    time_elapsed         | 715         |
+|    total_timesteps      | 940032      |
+| train/                  |             |
+|    approx_kl            | 0.013378677 |
+|    clip_fraction        | 0.136       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.08       |
+|    explained_variance   | 0.413       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0766     |
+|    n_updates            | 1520        |
+|    policy_gradient_loss | -0.0287     |
+|    value_loss           | 0.00363     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.31        |
+|    rounds_beaten        | 1.75        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 27.4        |
+|    ep_rew_mean          | -0.0983     |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 154         |
+|    time_elapsed         | 719         |
+|    total_timesteps      | 946176      |
+| train/                  |             |
+|    approx_kl            | 0.013246761 |
+|    clip_fraction        | 0.135       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.03       |
+|    explained_variance   | 0.46        |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0685     |
+|    n_updates            | 1530        |
+|    policy_gradient_loss | -0.0308     |
+|    value_loss           | 0.00438     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.33        |
+|    rounds_beaten        | 2           |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 28.8        |
+|    ep_rew_mean          | -0.0907     |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 155         |
+|    time_elapsed         | 724         |
+|    total_timesteps      | 952320      |
+| train/                  |             |
+|    approx_kl            | 0.011480243 |
+|    clip_fraction        | 0.125       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.96       |
+|    explained_variance   | 0.48        |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0712     |
+|    n_updates            | 1540        |
+|    policy_gradient_loss | -0.0283     |
+|    value_loss           | 0.00543     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.2         |
+|    rounds_beaten        | 1.47        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 27.2        |
+|    ep_rew_mean          | -0.113      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 156         |
+|    time_elapsed         | 729         |
+|    total_timesteps      | 958464      |
+| train/                  |             |
+|    approx_kl            | 0.013419013 |
+|    clip_fraction        | 0.13        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.02       |
+|    explained_variance   | 0.407       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0756     |
+|    n_updates            | 1550        |
+|    policy_gradient_loss | -0.0293     |
+|    value_loss           | 0.00566     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.39        |
+|    rounds_beaten        | 1.82        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 30          |
+|    ep_rew_mean          | -0.0828     |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 157         |
+|    time_elapsed         | 733         |
+|    total_timesteps      | 964608      |
+| train/                  |             |
+|    approx_kl            | 0.011369719 |
+|    clip_fraction        | 0.12        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.04       |
+|    explained_variance   | 0.34        |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0746     |
+|    n_updates            | 1560        |
+|    policy_gradient_loss | -0.0276     |
+|    value_loss           | 0.00407     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.32        |
+|    rounds_beaten        | 2.09        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 25.6        |
+|    ep_rew_mean          | -0.126      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 158         |
+|    time_elapsed         | 738         |
+|    total_timesteps      | 970752      |
+| train/                  |             |
+|    approx_kl            | 0.012203054 |
+|    clip_fraction        | 0.128       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.01       |
+|    explained_variance   | 0.444       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0758     |
+|    n_updates            | 1570        |
+|    policy_gradient_loss | -0.027      |
+|    value_loss           | 0.00449     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.16        |
+|    rounds_beaten        | 1.4         |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 25          |
+|    ep_rew_mean          | -0.124      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 159         |
+|    time_elapsed         | 742         |
+|    total_timesteps      | 976896      |
+| train/                  |             |
+|    approx_kl            | 0.011673402 |
+|    clip_fraction        | 0.121       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2          |
+|    explained_variance   | 0.318       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0717     |
+|    n_updates            | 1580        |
+|    policy_gradient_loss | -0.027      |
+|    value_loss           | 0.00412     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.24        |
+|    rounds_beaten        | 1.7         |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 23.8        |
+|    ep_rew_mean          | -0.129      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 160         |
+|    time_elapsed         | 747         |
+|    total_timesteps      | 983040      |
+| train/                  |             |
+|    approx_kl            | 0.011611164 |
+|    clip_fraction        | 0.126       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -2.01       |
+|    explained_variance   | 0.311       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0745     |
+|    n_updates            | 1590        |
+|    policy_gradient_loss | -0.0276     |
+|    value_loss           | 0.00378     |
+-----------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.42        |
+|    rounds_beaten        | 2.32        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 33.2        |
+|    ep_rew_mean          | -0.0742     |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 161         |
+|    time_elapsed         | 752         |
+|    total_timesteps      | 989184      |
+| train/                  |             |
+|    approx_kl            | 0.011748557 |
+|    clip_fraction        | 0.126       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.96       |
+|    explained_variance   | 0.382       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0818     |
+|    n_updates            | 1600        |
+|    policy_gradient_loss | -0.0298     |
+|    value_loss           | 0.00311     |
+-----------------------------------------
+------------------------------------------
+| balatro/                |              |
+|    ante_reached         | 1.5          |
+|    rounds_beaten        | 2.34         |
+|    win_rate             | 0            |
+| rollout/                |              |
+|    ep_len_mean          | 29.3         |
+|    ep_rew_mean          | -0.0929      |
+| time/                   |              |
+|    fps                  | 1314         |
+|    iterations           | 162          |
+|    time_elapsed         | 757          |
+|    total_timesteps      | 995328       |
+| train/                  |              |
+|    approx_kl            | 0.0115945265 |
+|    clip_fraction        | 0.124        |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.95        |
+|    explained_variance   | 0.331        |
+|    learning_rate        | 0.0003       |
+|    loss                 | -0.0726      |
+|    n_updates            | 1610         |
+|    policy_gradient_loss | -0.0282      |
+|    value_loss           | 0.00366      |
+------------------------------------------
+-----------------------------------------
+| balatro/                |             |
+|    ante_reached         | 1.35        |
+|    rounds_beaten        | 1.97        |
+|    win_rate             | 0           |
+| rollout/                |             |
+|    ep_len_mean          | 27.2        |
+|    ep_rew_mean          | -0.116      |
+| time/                   |             |
+|    fps                  | 1314        |
+|    iterations           | 163         |
+|    time_elapsed         | 761         |
+|    total_timesteps      | 1001472     |
+| train/                  |             |
+|    approx_kl            | 0.013414896 |
+|    clip_fraction        | 0.13        |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.93       |
+|    explained_variance   | 0.332       |
+|    learning_rate        | 0.0003      |
+|    loss                 | -0.0746     |
+|    n_updates            | 1620        |
+|    policy_gradient_loss | -0.0291     |
+|    value_loss           | 0.00325     |
+-----------------------------------------

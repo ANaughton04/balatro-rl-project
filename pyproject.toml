@@ -13,10 +13,5 @@ dependencies = [
     "torch>=2.14.1",
 ]
 
-[tool.uv.workspace]
-members = [
-    "jackdaw-balatro",
-]
-
 [tool.uv.sources]
-jackdaw = { workspace = true, editable = true }
+jackdaw = { path = "./jackdaw-balatro" }
