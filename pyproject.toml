@@ -1,0 +1,22 @@
+[project]
+name = "balatro-rl-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "gymnasium>=1.4.0",
+    "jackdaw",
+    "sb3-contrib>=2.9.2",
+    "stable-baselines3>=2.9.2",
+    "tensorboard>=2.21.0",
+    "torch>=2.14.1",
+]
+
+[tool.uv.workspace]
+members = [
+    "jackdaw-balatro",
+]
+
+[tool.uv.sources]
+jackdaw = { workspace = true, editable = true }
